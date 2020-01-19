@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import App from './App';
-import Home from "./components/home";
+import Home from "./component/home";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AboutUs from "./components/aboutus";
-import Contact from "./components/contact";
+import AboutUs from "./component/aboutus";
+import Contact from "./component/contact";
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
