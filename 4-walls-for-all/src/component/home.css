@@ -1,0 +1,173 @@
+.homepage .parallax {
+  /* The image used */
+  background-image: url("../media/images/parallaximg.jpg");
+
+  /* Set a specific height */
+  min-height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homepage div.transbox {
+  /* margin: 30px; */
+  background-color: #ffffff;
+  /* border: 1px solid black; */
+  opacity: 0.6;
+  /* filter: alpha(opacity=60); For IE8 and earlier */
+  width:560px;
+}
+.homepage div.transbox h1 {
+  margin: 30px;
+  font-weight: bold;
+  color: black;
+  font-size: 60px;
+}
+.homepage .con{
+  padding-left: 560px;
+  padding-top: 200px;
+}
+.homepage .why{
+  display:flex;
+}
+.homepage .why .flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  perspective: 1000px;
+  /* padding-left: 10%; */
+}
+
+.homepage .why .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.homepage .why .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.homepage .why .one .flip-card-front,.one .flip-card-back {
+  background-color: #d94a75 ;
+}
+
+.homepage .why .two .flip-card-front,.two .flip-card-back {
+  background-color: #2e7df5;
+}
+
+.homepage .why .three .flip-card-front,.three .flip-card-back {
+  background-color: #003399  ;
+}
+
+.homepage .why .flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.homepage .why .flip-card-front {
+  background-color: #2980b9;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+
+}
+.homepage .why .flip-card-front img{
+  width:100px;
+  height:100px;
+}
+.homepage .why .flip-card-back {
+  /* background-color: #2980b9; */
+  color: black;
+  transform: rotateY(180deg);
+}
+.homepage .why .one .flip-card-back .quote{
+  padding:10px;
+  padding-bottom: 20px;
+}
+
+.homepage .why .one .flip-card-back  .right-align p{
+  text-align: right;
+  font-size: 15px;
+  font-style: none;
+}
+
+.homepage .why .one .flip-card-back  .text-align p{
+  text-align: justify;
+  font-size: 20px;
+  font-style: italic;
+}
+.homepage .latestNews h1{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.homepage .latestNews{
+  padding-bottom: 50px;
+}
+.homepage .quote img{
+  width:100%;
+  height:200px;
+}
+.homepage .quote .quote-text{
+  font-size: 30px;
+  font-style: italic;
+}
+.homepage .quote .quote-author{
+  font-size: 20px;
+}
+.homepage .upcomming {
+  padding-bottom: 50px;
+}
+.homepage .upcomming h1{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.homepage .upcomming .EventList{
+  padding-left:400px;
+  padding-right: 200px;
+  width:90%;
+}
+.homepage .upcomming .EventList .eventTitle{
+  /* display:flex; */
+  text-align: left;
+  /* float:left; */
+}
+.homepage .upcomming .EventList .eventDate{
+  /* display:flex; */
+  text-align: right;
+  /* float:right; */
+}
+.homepage .joinUs {
+  display: flex;
+}
+.homepage .joinUs .text{
+  background-image: url("../media/images/background.png");
+  min-height: 500px;
+  width:40%;
+  text-align: center;
+  color: white;
+  padding-top:100px;
+}
+
+.homepage .joinUs .text button{
+  height:50px;
+  width:200px;
+  background-color: #d94a75;
+  border:1px solid #d94a75;
+  border-radius: 5px;
+}
+.homepage .joinUs img{
+  width:60%;
+  height:500px;
+}
