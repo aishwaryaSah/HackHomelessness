@@ -1,0 +1,64 @@
+.contact .banner{
+  background-color: #003399;
+  min-height: 200px;
+  font-size: 20px;
+  text-align: center;
+}
+.contact .banner p{
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  padding-top: 40px;
+}
+.contact .address img{
+  width:100%;
+  height:700px;
+  border:2px solid black;
+}
+.contact .valueText{
+  text-align: center;
+  padding-left: 100px;
+  padding-top:100px;
+  padding-right: 100px;
+}
+.contact .valueText p{
+  font-style: italic;
+  font-size:18px;
+  padding-top: 30px;
+}
+
+.contact .valueText table{
+  text-align: left;
+}
+
+.contact .valueText td{
+  padding:10px;
+
+}
+.contact .valueText input,textarea{
+  width:100%;
+}
+.contact .valueText button{
+  height:50px;
+  width:100%;
+  background-color: #d94a75;
+  border:1px solid #d94a75;
+  border-radius: 5px;
+}
+.contact .map img{
+  width:100%;
+}
+
+.contact .helpus{
+  text-align: center;
+  background-color: #003399;
+  color:white;
+  padding:50px;
+}
+.contact .helpus button{
+  height:50px;
+  width:200px;
+  background-color: #d94a75;
+  border:1px solid #d94a75;
+  border-radius: 5px;
+}
