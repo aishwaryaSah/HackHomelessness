@@ -8,9 +8,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutUs from "./component/aboutus";
 import Contact from "./component/contact";
 import * as serviceWorker from './serviceWorker';
+import TopNavBar from "./component/topnavbar";
 
 const routing = (
   <Router>
+    <TopNavBar></TopNavBar>
     <div>
       <Route exact path="/" component={Home} />
       <Route path="/aboutus" component={AboutUs} />
