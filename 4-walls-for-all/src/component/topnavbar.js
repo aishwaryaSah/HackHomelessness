@@ -9,16 +9,17 @@ class TopNavBar extends React.Component {
   render() {
     return (
       <div className="topnavbar">
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="#home">4 Walls For All</Navbar.Brand>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+          <Navbar.Brand href="/">4 Walls For All</Navbar.Brand>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto center-navs">
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/aboutus">About</Nav.Link>
+              <Nav.Link href="/supportus">Support Us</Nav.Link>
+              <Nav.Link href="/registerProperty">Register Property</Nav.Link>
+              <Nav.Link href="/login">Login</Nav.Link>
+              <Nav.Link href="/contactus">Contact</Nav.Link>
+              <Nav.Link href="/faq">FAQ</Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link href="#deets"><button>Donate</button></Nav.Link>
