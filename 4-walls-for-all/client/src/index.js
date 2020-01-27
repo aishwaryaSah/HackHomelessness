@@ -4,7 +4,7 @@ import './index.css';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import App from './App';
 import Home from "./component/home";
-import '../client/node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import AboutUs from "./component/aboutus";
 import Contact from "./component/contact";
 import RegisterProperty from "./component/registerProperty";
