@@ -13,3 +13,13 @@
   font:normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
   padding-left: 30px !important;
 }
+.topnavbar .regHome{
+  padding-top: 20px;
+}
+button{
+  height:50px;
+  width:200px;
+  background-color: #d94a75;
+  border:1px solid #d94a75;
+  border-radius: 5px;
+}
