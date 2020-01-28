@@ -8,8 +8,11 @@ import Carousel from "react-bootstrap/Carousel";
 import Table from "react-bootstrap/Table";
 import NoHome from "../media/images/nohome.png";
 import Human from "../media/images/human.jpg";
-import news from "../media/images/parallaximg.jpg";
+import news1 from "../media/images/news1.png";
+import news2 from "../media/images/news2.png";
+import news3 from "../media/images/news3.png";
 import Background from "../media/images/background.png";
+import JoinUs from "../media/images/joinus.png";
 
 import "./home.css";
 class Home extends React.Component {
@@ -111,12 +114,11 @@ class Home extends React.Component {
   getNewsCard1(){
     return (
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={news} />
+        <Card.Img variant="top" src={news1} />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>Stiching Seminar</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+            More tahn 100 people were trained in the stiching craft by 4-Walls-For-All.
           </Card.Text>
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
@@ -124,6 +126,36 @@ class Home extends React.Component {
     );
   }
 
+  getNewsCard2(){
+    return (
+      <Card style={{ width: '18rem' }}>
+        <Card.Img variant="top" src={news2} />
+        <Card.Body>
+          <Card.Title>Public Speaking Session</Card.Title>
+          <Card.Text>
+            TechCrunch organised an event to spread awareness of proper speaking and manners.
+          </Card.Text>
+          <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+      </Card>
+    );
+  }
+  getNewsCard3(){
+    return (
+      <Card style={{ width: '18rem' }}>
+        <Card.Img variant="top" src={news3} />
+        <Card.Body>
+          <Card.Title>Best Childcare Practices</Card.Title>
+          <Card.Text>
+            4-Walls-For-All in association with Google organised an event to team and ...
+            {/* distribute materials to ... */}
+            {/* take care of their new born children.. */}
+          </Card.Text>
+          <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+      </Card>
+    );
+  }
   render() {
     return (
       <div className="homepage">
@@ -151,10 +183,10 @@ class Home extends React.Component {
                 {this.getNewsCard1()}
               </Col>
               <Col xs={6} md={4}>
-                {this.getNewsCard1()}
+                {this.getNewsCard2()}
               </Col>
               <Col xs={6} md={4}>
-                {this.getNewsCard1()}
+                {this.getNewsCard3()}
               </Col>
             </Row>
           </Container>
@@ -312,7 +344,7 @@ class Home extends React.Component {
             <br></br>
             <button>Support Us</button>
           </div>
-          <img src={news}></img>
+          <img src={JoinUs}></img>
         </div>
       </div>
     );
