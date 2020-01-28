@@ -12,5 +12,6 @@ code {
     monospace;
 }
 .mainArea{
-  padding-top:55px;
+  padding-top:80px;
+  background-color: white;
 }

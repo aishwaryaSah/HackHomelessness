@@ -9,7 +9,7 @@ class TopNavBar extends React.Component {
   render() {
     return (
       <div className="topnavbar">
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+        <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top">
           <Navbar.Brand href="/">4 Walls For All</Navbar.Brand>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto center-navs">

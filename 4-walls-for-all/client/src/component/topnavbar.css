@@ -1,9 +1,11 @@
 .topnavbar{
-  background-color: black; 
+  /* background-color: black !important;  */
+  opacity: 1.0;
 }
 .navbar{
   z-index: 50000;
   width:100%;
+  background-color: black	 !important; 
 }
 .topnavbar .center-navs{
   padding-left: 300px;

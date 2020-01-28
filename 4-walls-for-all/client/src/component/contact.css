@@ -10,6 +10,7 @@
   color: white;
   padding-top: 40px;
 }
+
 .contact .address img{
   width:100%;
   height:700px;
@@ -17,9 +18,14 @@
 }
 .contact .valueText{
   text-align: center;
+  min-width: 600px;
   padding-left: 100px;
-  padding-top:100px;
+  padding-top:50px;
   padding-right: 100px;
+  padding-bottom: 50px;
+}
+table {
+  table-layout: fixed ;
 }
 .contact .valueText p{
   font-style: italic;
