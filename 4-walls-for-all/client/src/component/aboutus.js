@@ -1,6 +1,6 @@
 import React from 'react'
 import "./aboutus.css";
-import news from "../media/images/parallaximg.jpg";
+import aboutbg from "../media/images/about_bg.png";
 import mission from "../media/images/Mission.png";
 import vision from "../media/images/Vision.png";
 
@@ -24,7 +24,7 @@ class AboutUs extends React.Component {
           so that they can sustain themselves, also we encourage residents to take part in cooking and cleaning for the shelter homes.</p>
         </div>
         <div className="imgArea">
-          <img src={news}></img>
+          <img src={aboutbg}></img>
         </div>
         <div className="quote">
           <p className="quote-text">We believe everyone is capable of sustaining and having their own 'homes' by themselves, it is just that they need a little support and motivation, and we are here for that support so that our residents can sustain themselves on their own, at some point of time.</p>

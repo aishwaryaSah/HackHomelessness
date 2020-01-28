@@ -14,6 +14,7 @@ import Faq from "./component/faq";
 import * as serviceWorker from './serviceWorker';
 import TopNavBar from "./component/topnavbar";
 import HomelessRegister from "./component/homelessRegister";
+import Footer from './component/footer';
 const routing = (
   <Router>
     <TopNavBar></TopNavBar>
@@ -27,6 +28,7 @@ const routing = (
       <Route path="/contact" component={Contact} />
       <Route path="/homelessRegister" component={HomelessRegister}/>
     </div>
+    <Footer></Footer>
   </Router>
 )
 

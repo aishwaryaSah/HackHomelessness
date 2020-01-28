@@ -1,0 +1,36 @@
+.footer{
+  width:100%;
+  min-height:320px;
+}
+table,tr {
+  table-layout: fixed ;
+  width: 100%;
+}
+.col1,.col2, .col3{
+  width:100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.col1{
+  padding-top:80px;
+  padding-left: 40px;
+}
+.col2{
+}
+.col3{
+  padding-left: 180px;
+}
+.lowest{
+  text-align: center;
+  background-color: #003399  ;
+  color: white;
+  padding:7px;
+}
+.footer button{
+  height:40px !important;
+  width:100% !important;
+  color: white;
+  background-color: #d94a75 !important;
+  border:1px solid #d94a75 !important;
+  border-radius: 5px !important;
+}
