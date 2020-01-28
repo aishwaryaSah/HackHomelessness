@@ -22,7 +22,8 @@ class TopNavBar extends React.Component {
               <Nav.Link href="/faq">FAQ</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="#deets"><button>Donate</button></Nav.Link>
+              <Nav.Link href="/homelessRegister" className="regHome">Register Homeless</Nav.Link>
+              <Nav.Link href="/supportus"><button>Donate</button></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
