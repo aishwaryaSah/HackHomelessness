@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 const homeSchema = new Schema({
   name: String,
   address: String,
-  bedding: Number,
+  bed: String,
   password: String,
   ownername: String,
   owneridnumber: String,
