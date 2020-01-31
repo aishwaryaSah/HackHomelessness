@@ -36,7 +36,7 @@ const HomeType = new GraphQLObjectType({
     id: { type: GraphQLID },
     name: { type: GraphQLString },
     address: { type: GraphQLString },
-    bedding: { type: GraphQLInt },
+    bed: { type: GraphQLString },
     password: { type: GraphQLString },
     ownername: { type: GraphQLString },
     owneridnumber: { type: GraphQLString },
@@ -91,7 +91,7 @@ const Mutation = new GraphQLObjectType({
       args: {
         name: { type: GraphQLString },
         address: { type: GraphQLString },
-        bedding: { type: GraphQLInt },
+        bed: { type: GraphQLString },
         password: { type: GraphQLString },
         ownername: { type: GraphQLString },
         owneridnumber: { type: GraphQLString },
@@ -102,7 +102,7 @@ const Mutation = new GraphQLObjectType({
         let home = new Home({
           name: args.name,
           address: args.address,
-          bedding: args.bedding,
+          bed: args.bed,
           password: args.password,
           ownername: args.ownername,
           owneridnumber: args.owneridnumber,
