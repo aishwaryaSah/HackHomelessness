@@ -13,4 +13,9 @@ To run the application:
   b. Run npm start : To start the react client
 3. Go to /HackHomelessness/4-walls-for-all/server
   a. Run npm i : To download the node_modules
-  b. 
+  b. Run npm install -g nodemon : To download nodemon globally
+  b. Run nodemon app : To start the react server
+  
+  
+  
+For any more queries Contact: siddhi.sverma@gmail.com , aishwarya.asah@gmail.con
