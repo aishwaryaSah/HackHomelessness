@@ -14,6 +14,10 @@
 .topnavbar .nav-link{
   font:normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
   padding-left: 30px !important;
+  color: white !important;
+}
+.topnavbar .nav-link:hover{
+  color: gray !important;
 }
 .topnavbar .regHome{
   padding-top: 20px;

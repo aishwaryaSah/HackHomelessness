@@ -1,6 +1,7 @@
 .footer{
   width:100%;
   min-height:320px;
+  border-top: 1px solid black;
 }
 table,tr {
   table-layout: fixed ;

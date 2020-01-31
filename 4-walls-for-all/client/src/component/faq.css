@@ -1,0 +1,9 @@
+.faq{
+  padding:50px;
+}.faq button{
+  width: 100%;
+  text-align: left;
+}
+.card-body{
+  padding-left:100px;
+}

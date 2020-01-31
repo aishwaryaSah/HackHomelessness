@@ -37,7 +37,7 @@ class AboutUs extends React.Component {
                 <td>
                   <div className="valueText">
                     <h2>Our Mission</h2>
-                    <p>"To help those who cannot help themselves"</p>
+                    <p>"To make 4-Walls-For-All accessible to all, <br></br>and to help those who can’t help themselves<br></br>by providing a safe living and development space"</p>
                   </div>
                 </td>
                 <td>
@@ -51,7 +51,7 @@ class AboutUs extends React.Component {
                 <td>
                   <div className="valueText">
                     <h2>Our Vision</h2>
-                    <p>"To ensure that our residents can make 4 walls for<br></br> themselves, at some point of time"</p>
+                    <p>"To eradicate global homelessness"</p>
                   </div>
                 </td>
               </tr>
@@ -61,7 +61,7 @@ class AboutUs extends React.Component {
         <div className="helpus">
           <h2>We Need Your Support Today !</h2>
           <br></br>
-          <button>Donate</button>
+          <a href="/supportus"><button>Donate</button></a>
         </div>
       </div>
     );
