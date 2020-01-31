@@ -4,6 +4,7 @@ import AddHome from './AddHome';
 import { ApolloProvider } from 'react-apollo';
 import ApolloClient from 'apollo-boost';
 import HomeList from './HomeList';
+import { Card, Button } from 'react-bootstrap';
 
 const client = new ApolloClient({
   uri: 'http://localhost:4000/graphql',
@@ -42,11 +43,11 @@ class PropertyRegister extends React.Component {
       <ApolloProvider client={client}>
         <div className="signup">
           <AddHome />
-          <h2>
-            {' '}
-            <u>All our shelter homes: </u>
-          </h2>
+          <br></br>
+          <br></br>
           <HomeList />
+          <br></br>
+          <br></br>
         </div>
       </ApolloProvider>
     );

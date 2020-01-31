@@ -1,9 +1,9 @@
 .homepage .parallax {
   /* The image used */
-  background-image: url("../media/images/parallaximg.jpg");
+  background-image: url('../media/images/parallaximg.jpg');
 
   /* Set a specific height */
-  min-height: 800px; 
+  min-height: 800px;
 
   /* Create the parallax scrmolling effect */
   background-attachment: fixed;
@@ -17,7 +17,7 @@
   /* border: 1px solid black; */
   opacity: 0.6;
   /* filter: alpha(opacity=60); For IE8 and earlier */
-  width:560px;
+  width: 560px;
 }
 .homepage div.transbox h1 {
   margin: 30px;
@@ -25,12 +25,12 @@
   color: black;
   font-size: 60px;
 }
-.homepage .con{
-  padding-left: 560px;
+.homepage .con {
+  padding-left: 450px;
   padding-top: 200px;
 }
-.homepage .why{
-  display:flex;
+.homepage .why {
+  display: flex;
 }
 .homepage .why .flip-card {
   background-color: transparent;
@@ -47,26 +47,30 @@
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .homepage .why .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-.homepage .why .one .flip-card-front,.one .flip-card-back {
-  background-color: #d94a75 ;
+.homepage .why .one .flip-card-front,
+.one .flip-card-back {
+  background-color: #d94a75;
 }
 
-.homepage .why .two .flip-card-front,.two .flip-card-back {
+.homepage .why .two .flip-card-front,
+.two .flip-card-back {
   background-color: #2e7df5;
 }
 
-.homepage .why .three .flip-card-front,.three .flip-card-back {
-  background-color: #003399  ;
+.homepage .why .three .flip-card-front,
+.three .flip-card-back {
+  background-color: #003399;
 }
 
-.homepage .why .flip-card-front, .flip-card-back {
+.homepage .why .flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -78,72 +82,71 @@
   color: white;
   text-align: center;
   font-size: 30px;
-
 }
-.homepage .why .flip-card-front img{
-  width:100px;
-  height:100px;
+.homepage .why .flip-card-front img {
+  width: 100px;
+  height: 100px;
 }
 .homepage .why .flip-card-back {
   /* background-color: #2980b9; */
   color: black;
   transform: rotateY(180deg);
 }
-.homepage .why .one .flip-card-back .quote{
-  padding:10px;
+.homepage .why .one .flip-card-back .quote {
+  padding: 10px;
   padding-bottom: 20px;
 }
 
-.homepage .why .one .flip-card-back  .right-align p{
+.homepage .why .one .flip-card-back .right-align p {
   text-align: right;
   font-size: 15px;
   font-style: none;
 }
 
-.homepage .why .one .flip-card-back  .text-align p{
+.homepage .why .one .flip-card-back .text-align p {
   text-align: justify;
   font-size: 20px;
   font-style: italic;
 }
-.homepage .latestNews h1{
+.homepage .latestNews h1 {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 50px;
 }
-.homepage .latestNews{
+.homepage .latestNews {
   padding-bottom: 50px;
 }
-.homepage .quote img{
-  width:100%;
-  height:200px;
+.homepage .quote img {
+  width: 100%;
+  height: 200px;
 }
-.homepage .quote .quote-text{
+.homepage .quote .quote-text {
   font-size: 30px;
   font-style: italic;
 }
-.homepage .quote .quote-author{
+.homepage .quote .quote-author {
   font-size: 20px;
 }
 .homepage .upcomming {
   padding-bottom: 50px;
 }
-.homepage .upcomming h1{
+.homepage .upcomming h1 {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 50px;
 }
 
-.homepage .upcomming .EventList{
-  padding-left:400px;
-  padding-right: 200px;
-  width:90%;
+.homepage .upcomming .EventList {
+  padding-left: 250px;
+  padding-right: 100px;
+  width: 90%;
 }
-.homepage .upcomming .EventList .eventTitle{
+.homepage .upcomming .EventList .eventTitle {
   /* display:flex; */
   text-align: left;
   /* float:left; */
 }
-.homepage .upcomming .EventList .eventDate{
+.homepage .upcomming .EventList .eventDate {
   /* display:flex; */
   text-align: right;
   /* float:right; */
@@ -151,71 +154,71 @@
 .homepage .joinUs {
   display: flex;
 }
-.homepage .joinUs .text{
-  background-image: url("../media/images/background.png");
+.homepage .joinUs .text {
+  background-image: url('../media/images/background.png');
   min-height: 500px;
-  width:40%;
+  width: 40%;
   text-align: center;
   color: white;
-  padding-top:100px;
+  padding-top: 100px;
 }
 
-.homepage .joinUs .text button{
-  height:50px;
-  width:200px;
+.homepage .joinUs .text button {
+  height: 50px;
+  width: 200px;
   background-color: #d94a75;
-  border:1px solid #d94a75;
+  border: 1px solid #d94a75;
   border-radius: 5px;
-  color:white;
+  color: white;
 }
-.homepage .joinUs img{
-  width:60%;
-  height:500px;
+.homepage .joinUs img {
+  width: 60%;
+  height: 500px;
 }
-.two .flip-card-back{
-  padding:50px;
-  padding-left: 60px;
+.two .flip-card-back {
+  padding: 50px;
+  padding-left: 40px;
   text-align: left;
   font-size: 25px;
 }
-.three .flip-card-back{
-  padding:20px;
+.three .flip-card-back {
+  padding: 20px;
   padding-left: 60px;
   font-size: 25px;
 }
-.three .flip-card-back .a{
-  background-color: #380000 ;
+.three .flip-card-back .a {
+  background-color: #380000;
   color: #989898;
 }
-.three .flip-card-back .b{
-  background-color: #480000 ;
-  color:#989898;
+.three .flip-card-back .b {
+  background-color: #480000;
+  color: #989898;
 }
-.three .flip-card-back .c{
-  background-color:#580000 ;
-  color:#989898;
+.three .flip-card-back .c {
+  background-color: #580000;
+  color: #989898;
 }
-.three .flip-card-back .d{
-  background-color: #680000 ;
-  color:#989898;
+.three .flip-card-back .d {
+  background-color: #680000;
+  color: #989898;
 }
-.three .flip-card-back .e{
-  background-color:  #780000;
-  color:#989898;
+.three .flip-card-back .e {
+  background-color: #780000;
+  color: #989898;
 }
-.three .flip-card-back .f{
-  background-color: 		#880000;
-  color:#989898;
+.three .flip-card-back .f {
+  background-color: #880000;
+  color: #989898;
 }
-.three .flip-card-back .g{
-  color:#989898;
-  background-color:   	#980000 ;
+.three .flip-card-back .g {
+  color: #989898;
+  background-color: #980000;
 }
-.homepage .latestNews button{
-  height:50px;
-  width:200px;
+.homepage .latestNews button {
+  height: 50px;
+  width: 200px;
   background-color: #d94a75;
-  border:1px solid #d94a75;
+  border: 1px solid #d94a75;
   border-radius: 5px;
-  color:white;
+  color: white;
 }

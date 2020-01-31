@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { graphql } from 'react-apollo';
 import { Form, Button } from 'react-bootstrap';
-import './registerProperty.css';
+import './resident.css';
 import {
   getHomesQuery,
   addResidentMutation,
@@ -52,7 +52,7 @@ class AddResident extends Component {
   render() {
     return (
       <form id="add-resident" onSubmit={this.submitForm.bind(this)}>
-        <div className="signup">
+        <div className="addResident">
           <h3>Fill this form to register any Homeless Person: </h3>
           {/* <Form onSubmit={this.submitForm.bind(this)}> */}
           <Form.Group controlId="name">
@@ -106,12 +106,13 @@ class AddResident extends Component {
               {this.displayHomes()}
             </Form.Control>
           </Form.Group>
-
+          <br></br>
           <Button variant="primary" type="submit">
             Submit
           </Button>
-          {/* </Form> */}
         </div>
+        <br></br>
+        <br></br>
       </form>
     );
   }

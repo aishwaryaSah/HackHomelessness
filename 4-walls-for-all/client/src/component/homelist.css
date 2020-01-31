@@ -1,0 +1,8 @@
+.homelist {
+  /* display: inline; */
+}
+.homelist .card {
+  width: 100%;
+  /* display: inline; */
+  height: 100%;
+}

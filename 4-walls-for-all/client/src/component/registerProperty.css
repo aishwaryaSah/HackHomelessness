@@ -1,8 +1,15 @@
-.signup{
-  padding-left:30%;
-  padding-right: 30%;
-  padding-top:4%;
+.signup {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 4%;
 }
-.signup form{
+.signup form {
   padding-top: 6%;
+}
+.signup form button {
+  width: 100%;
+}
+.signup .signupForm {
+  padding-left: 10%;
+  padding-right: 10%;
 }
