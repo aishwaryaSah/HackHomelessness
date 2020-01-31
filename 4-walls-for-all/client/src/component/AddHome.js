@@ -57,7 +57,7 @@ class AddHome extends Component {
   render() {
     return (
       <form id="add-home" onSubmit={this.submitForm.bind(this)}>
-        <div className="signup">
+        <div className="signupForm">
           <h3>Fill this form to register any new Shelter Home: </h3>
           {/* <Form onSubmit={this.submitForm.bind(this)}> */}
           <Form.Group controlId="name">
@@ -141,7 +141,7 @@ class AddHome extends Component {
               }
             />
           </Form.Group>
-
+          <br></br>
           <Button variant="primary" type="submit">
             Submit
           </Button>

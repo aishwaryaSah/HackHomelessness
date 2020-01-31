@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { graphql } from 'react-apollo';
 import { getHomeQuery } from '../queries/queries';
+import { Card, Button, CardGroup, Table } from 'react-bootstrap';
 
 class HomeDetails extends Component {
   displayHomeDetails() {
@@ -8,18 +9,30 @@ class HomeDetails extends Component {
     if (home) {
       return (
         <div>
-          <h3> selected shelter home </h3>
-          <h4>{home.name}</h4>
-          <h3> address: </h3>
-          <h4>{home.address}</h4>
+          <h2>Selected Shelter Home Details: </h2>
+          <Table striped bordered hover size="sm">
+            <thead>
+              <tr>
+                <td>Name</td>
+                <td>Home Addresss</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{home.name}</td>
+                <td>{home.address}</td>
+              </tr>
+            </tbody>
+          </Table>
+          <br></br>
+          <br></br>
         </div>
       );
     } else {
-      return <div> No Home selected... </div>;
+      return <div></div>;
     }
   }
   render() {
-    console.log(this.props);
     return <div id="home-details">{this.displayHomeDetails()}</div>;
   }
 }
