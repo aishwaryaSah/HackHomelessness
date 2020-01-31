@@ -1,6 +1,6 @@
 .homepage .parallax {
   /* The image used */
-  background-image: url('../media/images/parallaximg.jpg');
+  background-image: url('../media/images/bg.png');
 
   /* Set a specific height */
   min-height: 800px;
@@ -22,7 +22,7 @@
 .homepage div.transbox h1 {
   margin: 30px;
   font-weight: bold;
-  color: black;
+  color: blue;
   font-size: 60px;
 }
 .homepage .con {

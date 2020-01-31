@@ -1,11 +1,9 @@
-import React from 'react'
-import "./topnavbar.css";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-
+import React from 'react';
+import './topnavbar.css';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
 class TopNavBar extends React.Component {
-  
   render() {
     return (
       <div className="topnavbar">
@@ -22,8 +20,12 @@ class TopNavBar extends React.Component {
               <Nav.Link href="/faq">FAQ</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="/homelessRegister" className="regHome">Register Homeless</Nav.Link>
-              <Nav.Link href="/supportus"><button>Donate</button></Nav.Link>
+              <Nav.Link href="/homelessRegister" className="regHome">
+                Register Homeless
+              </Nav.Link>
+              <Nav.Link href="/supportus">
+                <button>Donate</button>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -31,4 +33,4 @@ class TopNavBar extends React.Component {
     );
   }
 }
-export default TopNavBar
+export default TopNavBar;
