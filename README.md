@@ -1,2 +1,16 @@
 # HackHomelessness
-Project build for the Hackerearth's Hacking Homelessness Hackathon≥
+Project build for the Hackerearth's Hacking Homelessness Hackathon.
+
+We believe that there is good in everyone. There are several corporates and people willing to do good in the world. We just need to provide them with a well planned and set way that can fully enhance and benefit the Homeless.
+
+4-Walls-For-All could be that solution. 
+
+To run the application:
+
+1. Clone the repository
+2. Go to /HackHomelessness/4-walls-for-all/client
+  a. Run npm i : To download the node_modules
+  b. Run npm start : To start the react client
+3. Go to /HackHomelessness/4-walls-for-all/server
+  a. Run npm i : To download the node_modules
+  b. 
