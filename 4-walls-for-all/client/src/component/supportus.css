@@ -1,0 +1,39 @@
+.supportus .banner{
+  background-color: #003399;
+  min-height: 200px;
+  font-size: 20px;
+  text-align: center;
+}
+.supportus .banner p{
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  padding-top: 40px;
+}
+.supportus .infotext{
+  /* width: 100%; */
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.supportus .infotext button{
+  height:50px;
+  width:200px;
+  background-color: #d94a75;
+  border:1px solid #d94a75;
+  border-radius: 5px;
+  color:white;
+}
+.supportus img{
+  width:100%;
+}
+.supportus .support img{
+  border:2px solid black;
+  height:550px;
+}
+.supportus .donate img{
+  height:300px;
+}

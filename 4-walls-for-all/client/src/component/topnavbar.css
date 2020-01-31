@@ -22,10 +22,11 @@
 .topnavbar .regHome{
   padding-top: 20px;
 }
-button{
+.topnavbar button{
   height:50px;
   width:200px;
   background-color: #d94a75;
   border:1px solid #d94a75;
   border-radius: 5px;
+  color:white;
 }
