@@ -43,18 +43,20 @@ class Footer extends React.Component {
               <div className="col3">
                 <h3>Quick Links</h3>
                 <ul>
-                  <li><a>About</a></li>
-                  <li><a>About</a></li>
-                  <li><a>About</a></li>
-                  <li><a>About</a></li>
-                  <li><a>About</a></li>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/aboutus">About</a></li>
+                  <li><a href="/supportus">Support Us</a></li>
+                  <li><a href="/login">Login</a></li>
+                  <li><a href="/registerProperty">Register Property</a></li>
+                  <li><a href="/contact">Contact Us</a></li>
+                  <li><a href="/faq">FAQ</a></li>
                 </ul>
               </div>
             </td>
           </tr>
         </table>
         <div className="lowest">
-          © 2023 by Woman PWR. Proudly created with Wix.com |  Terms of Use  |   Privacy Policy
+          © 2020 by BugKraken. Proudly created with ReactJS | GraphQL | Apollo | Bootstrap | MongoDB
         </div>
       </div>
     );

@@ -7,7 +7,8 @@ import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
 import Table from "react-bootstrap/Table";
 import NoHome from "../media/images/nohome.png";
-import Human from "../media/images/human.jpg";
+import Human from "../media/images/human.png";
+import Alert from "../media/images/alert.png";
 import news1 from "../media/images/news1.png";
 import news2 from "../media/images/news2.png";
 import news3 from "../media/images/news3.png";
@@ -21,10 +22,11 @@ class Home extends React.Component {
       <div className="flip-card one">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-            <br></br><br></br>
-            What is homelessness?
             <br></br>
-                <img src={NoHome}></img>
+            <img src={NoHome}></img>
+            <br></br>
+            <br></br>
+            What is homelessness?
             </div>
             <div className="flip-card-back">
             <br></br>
@@ -56,15 +58,19 @@ class Home extends React.Component {
           <div className="flip-card-inner">
             <div className="flip-card-front">
             <br></br>
+            <img src={Human}></img>
+            <br></br>
             <br></br>
               Who is affected?
-              <br></br>
-            <img src={Human}></img>
             </div>
             <div className="flip-card-back">
-              <h1>John Doe</h1> 
-              <p>Architect & Engineer</p> 
-              <p>We love that guy</p>
+              <ul>
+                <li> CAN'T AFFORD HOUSING</li>
+                <li>WORKING BUT IN POVERTY</li>
+                <li>UNABLE TO FIND WORK</li>
+                <li>PERSONAL HARDSHIP</li>
+                <li>PHYSICALLY OR MENTALLY ILL</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -77,15 +83,19 @@ class Home extends React.Component {
           <div className="flip-card-inner">
             <div className="flip-card-front">
             <br></br>
+            <img src={Alert}></img>
             <br></br>
-              Spectrum of severity
-              <br></br>
-            <img src={NoHome}></img>
+            <br></br>
+            Spectrum of severity
             </div>
             <div className="flip-card-back">
-              <h1>John Doe</h1> 
-              <p>Architect & Engineer</p> 
-              <p>We love that guy</p>
+              <div className="a">On the Streets</div>
+              <div className="b">Abandoned Building/Vehicle</div>
+              <div className="c">Shelters/Missions</div>
+              <div className="d">Transitional Housing</div>
+              <div className="e">Single Room Occupancy (SRO)</div>
+              <div className="f">Precariously "Doubled Up"</div>
+              <div className="g">2+ Moves within 60 Days</div>
             </div>
           </div>
         </div>
@@ -120,7 +130,7 @@ class Home extends React.Component {
           <Card.Text>
             More tahn 100 people were trained in the stiching craft by 4-Walls-For-All.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button variant="primary">Read More</Button>
         </Card.Body>
       </Card>
     );
@@ -135,7 +145,7 @@ class Home extends React.Component {
           <Card.Text>
             TechCrunch organised an event to spread awareness of proper speaking and manners.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button variant="primary">Read More</Button>
         </Card.Body>
       </Card>
     );
@@ -151,7 +161,7 @@ class Home extends React.Component {
             {/* distribute materials to ... */}
             {/* take care of their new born children.. */}
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button variant="primary">Read More</Button>
         </Card.Body>
       </Card>
     );
@@ -196,13 +206,24 @@ class Home extends React.Component {
           <Carousel controls="true" fade="true" indicators="false">
             <Carousel.Item>
               <img
+                className="d-block"
+                src={Background}
+                alt="Third slide"
+              />
+              <Carousel.Caption>
+                <p className="quote-text">Homelessness is a mark of failure for communities in providing basic security. </p>
+                <p className="quote-author">HaclerEarth</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
                 className="d-block w-100"
                 src={Background}
                 alt="Happy Children"
               />
               <Carousel.Caption>
-                <p className="quote-text">I am no bird; and no net ensnares me; I am a free human being with an independent will. </p>
-                <p className="quote-author"> Charlotte Bronte, Jane Eyre</p>
+                <p className="quote-text">State of having no fixed, regular and adequate nighttime residence. </p>
+                <p className="quote-author">Oxford Encyclopaedia</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -212,8 +233,8 @@ class Home extends React.Component {
                 alt="Third slide"
               />
               <Carousel.Caption>
-                <p className="quote-text">I am no bird; and no net ensnares me; I am a free human being with an independent will. </p>
-                <p className="quote-author"> Charlotte Bronte, Jane Eyre</p>
+                <p className="quote-text">Homelessness is defined as living in a house that is below the minimum standard or lacks secure tenure. </p>
+                <p className="quote-author"> Wikipedia</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -223,8 +244,8 @@ class Home extends React.Component {
                 alt="Third slide"
               />
               <Carousel.Caption>
-                <p className="quote-text">I am no bird; and no net ensnares me; I am a free human being with an independent will. </p>
-                <p className="quote-author"> Charlotte Bronte, Jane Eyre</p>
+                <p className="quote-text">The issue of modern homelessness is broad and complex, affecting too many of our neighbors and communities.</p>
+                {/* <p className="quote-author"> Charlotte Bronte, Jane Eyre</p> */}
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -234,19 +255,8 @@ class Home extends React.Component {
                 alt="Third slide"
               />
               <Carousel.Caption>
-                <p className="quote-text">I am no bird; and no net ensnares me; I am a free human being with an independent will. </p>
-                <p className="quote-author"> Charlotte Bronte, Jane Eyre</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block"
-                src={Background}
-                alt="Third slide"
-              />
-              <Carousel.Caption>
-                <p className="quote-text">I am no bird; and no net ensnares me; I am a free human being with an independent will. </p>
-                <p className="quote-author"> Charlotte Bronte, Jane Eyre</p>
+                <p className="quote-text">Homelessness can happen to anyone. Homelessness does not define a person but is instead a temporary situation.  </p>
+                {/* <p className="quote-author"> Charlotte Bronte, Jane Eyre</p> */}
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

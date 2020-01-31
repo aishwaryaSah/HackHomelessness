@@ -171,3 +171,50 @@
   width:60%;
   height:500px;
 }
+.two .flip-card-back{
+  padding:50px;
+  padding-left: 60px;
+  text-align: left;
+  font-size: 25px;
+}
+.three .flip-card-back{
+  padding:20px;
+  padding-left: 60px;
+  font-size: 25px;
+}
+.three .flip-card-back .a{
+  background-color: #380000 ;
+  color: #989898;
+}
+.three .flip-card-back .b{
+  background-color: #480000 ;
+  color:#989898;
+}
+.three .flip-card-back .c{
+  background-color:#580000 ;
+  color:#989898;
+}
+.three .flip-card-back .d{
+  background-color: #680000 ;
+  color:#989898;
+}
+.three .flip-card-back .e{
+  background-color:  #780000;
+  color:#989898;
+}
+.three .flip-card-back .f{
+  background-color: 		#880000;
+  color:#989898;
+}
+.three .flip-card-back .g{
+  color:#989898;
+  background-color:   	#980000 ;
+}
+.homepage .latestNews button{
+  height:50px;
+  width:200px;
+  background-color: #d94a75;
+  border:1px solid #d94a75;
+  border-radius: 5px;
+
+}
