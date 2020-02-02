@@ -18,4 +18,4 @@ To run the application:
   
   
   
-For any more queries Contact: siddhi.sverma@gmail.com , aishwarya.asah@gmail.con
+For any more queries Contact: siddhi.sverma@gmail.com , aishwarya.asah@gmail.com
